@@ -22,4 +22,4 @@ Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ip
  - [Roboto Google Fonts](https://fonts.google.com/specimen/Roboto)
 
 ## Logo
- ![placeholder](https://placekitten.com/200/300)
+ ![placeholder](images/200x300.jpg)
