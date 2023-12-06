@@ -18,13 +18,11 @@
 
 <body>
     <!-- SKIP LINKS -->
-    <!-- SKIP LINKS -->
     <ul id="skip-links">
-        <li><a href="#mission" aria-label="go to mission">Go to Mission</a></li>
-        <li><a href="#vision" aria-label="go to vision">Go to Vision</a></li>
-        <li><a href="#contact-us" aria-label="go to contact us">Go to Contact Us</a></li>
+        <li><a href="#home" aria-label="go to main banner">Go to Home Banner</a></li>
+        <li><a href="#learn-more" aria-label="go to learn more">Go to Learn More</a></li>
+        <li><a href="#gallery" aria-label="go to gallery">Go to Gallery</a></li>
     </ul>
-
 
     <!-- HEADER -->
     <div class="wrapper">
@@ -73,9 +71,7 @@
 
         <main>
             <!-- BANNER -->
-            <section id="gallery" class="container-lg" style="margin-top:40px; text-align: center; color: #693C16;">
-                <div class="row g-3">
-                    <h2 class="col-12">About Us</h2>
+            <section class="banner">
                 <div class="home-banner" style="position: relative;">
                     <picture>
                         <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
@@ -85,24 +81,91 @@
                     </picture>
                     <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 337px; background-color: rgba(0, 0, 0, 0.6);"></div>
                     <div class="banner-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                        <h1 class="display-5" style="color: white;">Pixagram Design Studio</h1>
+                        <h1 class="display-5" style="color: white;">Welcome to Pixagram Design Studio</h1>
                         <p style="color: white;">A haven for creative souls alike. Since our establishment in 2012, we
                             have been dedicated to curating a collection of stunning designs.</p>
                     </div>
-
+                    <a href="about-us.html" class="btn btn-primary rounded-2 w-50"
+                        style="margin-top:20px;">Learn More</a>
                 </div><!-- closes .info-->
             </section><!-- closes .banner -->
 
-    <div style="text-align: center;">
-        <h2 id="mission" style="margin-top:20px; color: #693C16;">Mission</h2>
-        <p style="margin: 20px 10%; text-align: justify; color: #693C16;">Welcome to Pixagram Design Studio, a haven for photography enthusiasts and creative souls alike. Since our establishment in 2012, we have been dedicated to curating a collection of high-quality photography equipment and accessories that elevate the art of capturing moments. Our mission is to empower photographers with the tools they need to unleash their creativity and capture stunning images that tell captivating stories.</p>
-
-        <h2 id="vision" style="color: #693C16;">Vision</h2>
-        <p style="margin: 20px 10%; text-align: justify; color: #693C16;">At Pixagram Design Studio, we envision a world where photography is not just a hobby or a profession but a form of artistic expression that transcends boundaries. We strive to be the go-to destination for photographers, providing top-notch equipment, expert advice, and a community where creativity flourishes. Our vision is to inspire and support photographers in capturing the world through their unique lens, creating timeless visual stories.</p>
-
-        <a id="contact-us" href="contact.html" class="btn btn-primary rounded-2 w-50" style="margin-top:40px; display: block; margin-left: auto; margin-right: auto;">Contact Us</a>
-    </div>
-
+            <!-- Gallery Section -->
+            <section id="gallery" class="container-lg" style="margin-top:40px; text-align: center; color: #693C16;">
+                <div class="row g-3">
+                    <h2 class="col-12">Gallery</h2>
+                    <div class="col-md-6">
+                        <!-- Photography -->
+                        <div class="card rounded-0 p-0 border-0">
+                            <a href="https://www.facebook.com/pixagram" target="_blank" aria-label="Photography Link">
+                                <picture>
+                                    <source srcset="images/photography/photography-400_x_300.jpg" media="(max-width:800px)">
+                                    <source srcset="images/photography/photography-500_x_375.jpg" media="(min-width:800px)">
+                                    <img src="images/photography/photography.jpg" alt="portrait of a woman with sunglass and hat"
+                                        class="photo-img" style="width:100%; height: 337px; object-fit: cover;">
+                                </picture>
+                            </a>
+                            <div class="card-body">
+                                <a href="https://www.facebook.com/pixagram" class="btn btn-primary rounded-2 d-block border-0"
+                                    target="_blank">Photography</a>
+                            </div><!-- closes .card-body -->
+                        </div><!-- closes .card -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Graphic Design -->
+                        <div class="card rounded-0 p-0 border-0">
+                            <a href="https://raypaulobgarcia.wixsite.com/samplesofwork" target="_blank"
+                                aria-label="Graphic Design Link">
+                                <picture>
+                                    <source srcset="images/graphic/graphic-400_x_300.jpg" media="(max-width:800px)">
+                                    <source srcset="images/graphic/graphic-500_x_375.jpg" media="(min-width:800px)">
+                                    <img src="images/graphic/graphic.jpg" alt="an photoshop manipulated elephant and butterfly"
+                                        class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
+                                </picture>
+                            </a>
+                            <div class="card-body">
+                                <a href="https://raypaulobgarcia.wixsite.com/samplesofwork"
+                                    class="btn btn-primary rounded-2 d-block border-0" target="_blank">Graphic Design</a>
+                            </div><!-- closes .card-body -->
+                        </div><!-- closes .card -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Videography -->
+                        <div class="card rounded-0 p-0 border-0">
+                            <a href="https://www.facebook.com" target="_blank" aria-label="Videography Link">
+                                <picture>
+                                    <source srcset="images/video/video-400_x_300.jpg" media="(max-width:800px)">
+                                    <source srcset="images/video/video-500_x_375.jpg" media="(min-width:800px)">
+                                    <img src="images/video/video.jpg" alt="image of a video studio"
+                                        class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
+                                </picture>
+                            </a>
+                            <div class="card-body">
+                                <a href="https://www.facebook.com"
+                                    class="btn btn-primary rounded-2 d-block border-0" target="_blank">Videography</a>
+                            </div><!-- closes .card-body -->
+                        </div><!-- closes .card -->
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Web Design-->
+                        <div class="card rounded-0 p-0 border-0">
+                            <a href="https://raypaulobgarcia.wixsite.com/samplesofwork" target="_blank"
+                                aria-label="Web Design Link">
+                                <picture>
+                                    <source srcset="images/web/web-400_x_300.jpg" media="(max-width:800px)">
+                                    <source srcset="images/web/web-500_x_375.jpg" media="(min-width:800px)">
+                                    <img src="images/web/web.jpg" alt="a photoshop manipulated elephant and butterfly"
+                                        class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
+                                </picture>
+                            </a>
+                            <div class="card-body">
+                                <a href="https://raypaulobgarcia.wixsite.com/samplesofwork"
+                                    class="btn btn-primary rounded-2 d-block border-0" target="_blank">Web Design</a>
+                            </div><!-- closes .card-body -->
+                        </div><!-- closes .card -->
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- Footer -->
