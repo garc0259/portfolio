@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,83 +10,112 @@
   <!-- Animate.css Library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Animate On Scroll -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-
 <body>
-                                                        <!--SKIP LINKS  -->
-     <ul id="skip-links">
-        <li><a href="#home" aria-label="go to main banner">Go to Home Banner</a></li>
-        <li><a href="#learn more" aria-label="go to learn more">Go to Learn More</a></li>
-        <li><a href="#gallery" aria-label="go to gallery">Go to Gallery</a></li>
-     </ul>
+  <!--SKIP LINKS  -->
+  <ul id="skip-links">
+    <li><a href="#home" aria-label="go to main banner">Go to Home Banner</a></li>
+    <li><a href="#learn more" aria-label="go to learn more">Go to Learn More</a></li>
+    <li><a href="#gallery" aria-label="go to gallery">Go to Gallery</a></li>
+  </ul>
 
-                                                         <!-- HEADER -->
-    <div class="wrapper">
-      <header class="text-bg-dark">
-        <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
-          <div class="container-lg">
-            <a class="navbar-brand" href="#home">
-              <img src="images/logo/logo.png" alt="pixagram design studio logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                <li class="nav-item px-4">
-                  <a class="nav-link" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="#gallery">Gallery</a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="#about-us">About Us</a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control text-bg-light rounded-0" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary rounded-0" type="submit">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                  </svg>
-                </button>
-              </form>
-            </div>
+  <!-- HEADER -->
+  <div class="wrapper">
+    <header class="text-bg-dark">
+      <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+        <div class="container-lg">
+          <a class="navbar-brand" href="#home">
+            <img src="images/logo/logo.png" alt="pixagram design studio logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto nav-custom">
+              <li class="nav-item px-4">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control text-bg-light rounded-0" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary rounded-0" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+              </button>
+            </form>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
 
-      <main>
-                                                            <!-- BANNER -->
-    <section class="banner">
+    <main>
+      <!-- BANNER -->
+      <section class="banner">
         <div class="home-banner" style="position: relative;">
-            <picture>
-                <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
-                <source srcset="images/banner/banner-800_x_533.jpg" media="(min-width:800px)">
-                <img src="images/banner/banner.jpg" alt="picture of a computer screen with web design" class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
-            </picture>
-        <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 337px; background-color: rgba(0, 0, 0, 0.6);"></div>
-        <div class="banner-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <picture>
+            <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
+            <source srcset="images/banner/banner-800_x_533.jpg" media="(min-width:800px)">
+            <img src="images/banner/banner.jpg" alt="picture of a computer screen with web design" class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
+          </picture>
+          <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 337px; background-color: rgba(0, 0, 0, 0.6);"></div>
+          <div class="banner-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
             <h1 class="display-5" style="color: white;">Welcome to Pixagram Design Studio</h1>
             <p style="color: white;">Welcome to Pixagram Design Studio, a haven for creative souls alike. Since our establishment in 2012, we have been dedicated to curating a collection of stunning designs.</p>
-         </div>
-            <a href="#learn-more" class="btn btn-primary rounded-2" style="margin-top:20px;">Learn More</a>
+          </div>
+          <a href="#learn-more" class="btn btn-primary rounded-2" style="margin-top:20px;">Learn More</a>
         </div><!-- closes .info-->
-    </section><!-- closes .banner -->
+      </section><!-- closes .banner -->
 
-    
-      </main>
+      <!-- Gallery Section -->
+      <section id="gallery" class="container-lg" style="margin-top:40px; text-align: center; color: #693C16;">
+          <div class="row g-3">
+            <h2 class="col-12">Gallery</h2>
+            <div class="col-md-6">
+              <div class="card rounded-0 p-0">
+                <picture>
+                  <source srcset="images/photography/photography-400_x_300.jpg" media="(max-width:800px)">
+                  <source srcset="images/photography/photography-500_x_375.jpg" media="(min-width:800px)">
+                  <img src="images/photography/photography.jpg" alt="portrait of a woman with sunglass and hat" class="photo-img" style="width:100%; height: 337px; object-fit: cover;">
+                </picture>
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary rounded-2 py-3 d-block">Photography</a>
+                </div><!-- closes .card-body -->
+              </div><!-- closes .card -->
+            </div>
+            <div class="col-md-6">
+              <!-- Graphic Design -->
+              <div class="card rounded-0 p-0">
+                <picture>
+                  <source srcset="images/graphic/graphic-400_x_300.jpg" media="(max-width:800px)">
+                  <source srcset="images/graphic/graphic-500_x_375.jpg" media="(min-width:800px)">
+                  <img src="images/graphic/graphic.jpg" alt="an photoshop manipulated elephant and butterfly" class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
+                </picture>
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary rounded-2 py-3 d-block">Graphics</a>
+                </div><!-- closes .card-body -->
+              </div><!-- closes .card -->
+            </div>
+          </div>
+      </section>
 
 
+    </main>
+  </div>
 
-
-
-    </body>
-
+  <!-- Trying Bootstrap JS (and Popper.js)-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></script>
+</body>
 </html>

@@ -70,3 +70,10 @@ body { margin: 0 auto;
     --bs-btn-bg: transparent;
     --bs-btn-color: var(--bs-primary);
   }
+
+  .nav-custom,
+  .nav-custom a,
+  .nav-custom a:hover,
+  .nav-custom a:active {
+    color: #693C16 !important;
+  }
