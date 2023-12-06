@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* SKIP LINKS */
+#skip-links{
+    list-style: none;
+    padding: 10px;;
+}
+
+#skip-links a{
+    position: absolute;
+    top: -3em;
+    color: #693c16;   
+    outline-color: #693c16;
+}
+  
+#skip-links a:focus{
+    top: 0;  
+}
+  
+#skip-links a:visited{
+    color: #818181;
+}
+
