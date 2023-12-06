@@ -18,7 +18,7 @@ In this final project, I want to apply all the materials that I learned in MTM62
 - [AnimateOnScroll](https://michalsnik.github.io/aos/)
 
 ## External Resources
- - [Images from Unsplash](www.unsplash.com)(www.pexels.com)
+ - [Images from Unsplash,](www.unsplash.com)[pexels](www.pexels.com)
  - [Roboto Google Fonts](https://fonts.google.com/specimen/Roboto)
 
 ## Logo
