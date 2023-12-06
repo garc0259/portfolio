@@ -26,7 +26,7 @@
                                                          <!-- HEADER -->
     <div class="wrapper">
       <header class="text-bg-dark">
-        <nav class="navbar navbar-expand-lg bg-light border-bottom border-body" data-bs-theme="light">
+        <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
           <div class="container-lg">
             <a class="navbar-brand" href="#home">
               <img src="images/logo/logo.png" style="max-width:20%" alt="pixagram design studio logo">
@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#gallery">Gallery</a>
@@ -64,13 +64,16 @@
 
       <main>
                                                             <!-- BANNER -->
-        <section class="banner py-5">
-          <div class="info container-lg bg-dark bg-opacity-75 text-light py-4">
-            <!-- <h1 class="display-1">Welcome to Pixagram Design Studio</h1> -->
-            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corporis porro itaque blanditiis qui culpa quo quas facere quae inventore accusamus minima, sunt voluptate id laborum facilis dolore praesentium eligendi!</p> -->
-            <a href="#contact" class="btn btn-primary rounded-2">Learn More<svg width="0" height="4" fill="currentColor" class="bi bi-play-fill">
-                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
-              </svg></a>
+        <section class="banner">
+          <div class="home-banner">
+            <picture>
+                <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
+                <source srcset="images/banner/banner-800_x_533.jpg" media="(min-width:800px)">
+                <img src="images/banner/banner.jpg" alt="picture of a computer scree with web design" class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
+            </picture>
+            <h1 class="display-5">Welcome to Pixagram Design Studio</h1>
+            <p>Welcome to Pixagram Design Studio, a haven for creative souls alike. Since our establishment in 2012, we have been dedicated to curating a collection of stunning designs.</p>
+            <a href="#learn more" class="btn btn-primary rounded-2">Learn More</a>
           </div><!-- closes .info-->
         </section><!-- closes .banner -->
 
