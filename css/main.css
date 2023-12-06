@@ -82,3 +82,34 @@ body { margin: 0 auto;
 .bi-facebook, .bi-instagram, .bi-linkedin {
     color: #693C16 !important;
 }
+
+    /* Drop shadow for buttons */
+    .btn-primary {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Scaling effect for images on hover */
+    .photo-img,
+    .graphic-img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .photo-img:hover,
+    .graphic-img:hover {
+        transform: scale(1.05);
+    }
+
+  
+    /* Animation for banner image panning */
+    @keyframes panLeftToRight {
+        0%, 100%{
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(10%);
+        }
+    }
+
+    .banner-image {
+        animation: panLeftToRight 30s linear infinite;
+    }
