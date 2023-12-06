@@ -29,23 +29,23 @@
         <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
           <div class="container-lg">
             <a class="navbar-brand" href="#home">
-              <img src="images/logo/logo.png" style="max-width:20%" alt="pixagram design studio logo">
+              <img src="images/logo/logo.png" alt="pixagram design studio logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item px-4">
                   <a class="nav-link" aria-current="page" href="#home">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-4">
                   <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-4">
                   <a class="nav-link" href="#about-us">About Us</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item px-4">
                   <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
@@ -64,18 +64,21 @@
 
       <main>
                                                             <!-- BANNER -->
-        <section class="banner">
-          <div class="home-banner">
+    <section class="banner">
+        <div class="home-banner" style="position: relative;">
             <picture>
                 <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
                 <source srcset="images/banner/banner-800_x_533.jpg" media="(min-width:800px)">
-                <img src="images/banner/banner.jpg" alt="picture of a computer scree with web design" class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
+                <img src="images/banner/banner.jpg" alt="picture of a computer screen with web design" class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
             </picture>
-            <h1 class="display-5">Welcome to Pixagram Design Studio</h1>
-            <p>Welcome to Pixagram Design Studio, a haven for creative souls alike. Since our establishment in 2012, we have been dedicated to curating a collection of stunning designs.</p>
-            <a href="#learn more" class="btn btn-primary rounded-2">Learn More</a>
-          </div><!-- closes .info-->
-        </section><!-- closes .banner -->
+        <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 337px; background-color: rgba(0, 0, 0, 0.6);"></div>
+        <div class="banner-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <h1 class="display-5" style="color: white;">Welcome to Pixagram Design Studio</h1>
+            <p style="color: white;">Welcome to Pixagram Design Studio, a haven for creative souls alike. Since our establishment in 2012, we have been dedicated to curating a collection of stunning designs.</p>
+         </div>
+            <a href="#learn-more" class="btn btn-primary rounded-2" style="margin-top:20px;">Learn More</a>
+        </div><!-- closes .info-->
+    </section><!-- closes .banner -->
 
     
       </main>
