@@ -78,4 +78,7 @@ body { margin: 0 auto;
     color: #693C16 !important;
   }
 
-  
+/* Custom styles for social media icons */
+.bi-facebook, .bi-instagram, .bi-linkedin {
+    color: #693C16 !important;
+}
