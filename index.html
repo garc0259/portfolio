@@ -191,6 +191,13 @@
             </div>
         </footer>
     </div>
+    <!-- SCROLL TO TOP BUTTON -->
+    <div id="scroll-to-top" class="position-fixed bottom-0 end-0 p-3" style="display: none; cursor: pointer;">
+        <button class="btn btn-primary rounded-circle">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </div>
+
 
     <!-- ADDITIONAL CODES -->
     <!-- Bootstrap JS (and Popper.js) -->
@@ -200,6 +207,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         integrity="sha384-eQJ8Te4U1sA8fP7pAQcKT8Gk5B3TOjPr+Nt9fFqE+FuEAqF5q7ByjXNo1PwFkCj" crossorigin="anonymous"></script>
 
-</body>
+        <script>
+            // Scroll to Top Functionality
+            document.getElementById('scroll-to-top').addEventListener('click', function () {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+    
+            // Show/Hide Scroll to Top Icon based on scroll position
+            window.addEventListener('scroll', function () {
+                var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    
+                if (scrollPosition > 300) {
+                    document.getElementById('scroll-to-top').style.display = 'block';
+                } else {
+                    document.getElementById('scroll-to-top').style.display = 'none';
+                }
+            });
+        </script>
+
+    </body>
 
 </html>
