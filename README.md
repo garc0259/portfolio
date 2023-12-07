@@ -6,6 +6,7 @@ In this final project, I want to apply all the materials that I learned in MTM62
 ### Challenges
 - Bootstrap is applied this time which will take a bit challenging as I've got used to coding with conventional process using html and css.
 - I want to make this project as enticing as possible without going beyond cleanliness and simplicity -this is my key word to this project as whole.
+-Validating HTML, CSS, SCHEMA. Need to address any errors until codes are Error Free.
 
 
 ### Lessons Learned
