@@ -11,17 +11,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Animate.css Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- Animate On Scroll -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <!-- SKIP LINKS -->
     <ul id="skip-links">
-        <li><a href="#home" aria-label="go to main banner">Go to Home Banner</a></li>
-        <li><a href="#learn-more" aria-label="go to learn more">Go to Learn More</a></li>
-        <li><a href="#gallery" aria-label="go to gallery">Go to Gallery</a></li>
+        <li><a href="#contact-us" aria-label="go to contact us">Go to Contact Us</a></li>
+        <li><a href="#hours" aria-label="go to hours of operation">Go to Hours of Operation</a></li>
+        <li><a href="#location" aria-label="go to location">Go to Location</a></li>
     </ul>
 
     <!-- HEADER -->
@@ -32,9 +30,7 @@
                     <a class="navbar-brand" href="index.html">
                         <img src="images/logo/logo.png" alt="pixagram design studio logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,14 +49,10 @@
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
-                            <input class="form-control text-bg-light rounded-0" type="search" placeholder="Search"
-                                aria-label="Search">
-                            <button class="btn btn-outline-primary rounded-0" type="submit"
-                                style="background-color: #693C16; border-color: #693C16;">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f1f1f1"
-                                    class="bi bi-search" viewBox="0 0 16 16">
-                                    <path
-                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            <input class="form-control text-bg-light rounded-0" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary rounded-0" type="submit" style="background-color: #693C16; border-color: #693C16;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f1f1f1" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                                 </svg>
                             </button>
                         </form>
@@ -70,165 +62,142 @@
         </header>
 
         <main>
-            <!-- BANNER -->
-            <section class="banner">
-                <div class="home-banner" style="position: relative;">
-                    <picture>
-                        <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
-                        <source srcset="images/banner/banner-800_x_533.jpg" media="(min-width:800px)">
-                        <img src="images/banner/banner.jpg" alt="picture of a computer screen with web design"
-                            class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
-                    </picture>
-                    <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 337px; background-color: rgba(0, 0, 0, 0.6);"></div>
-                    <div class="banner-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                        <h1 class="display-5" style="color: white;">Welcome to Pixagram Design Studio</h1>
-                        <p style="color: white;">A haven for creative souls alike. Since our establishment in 2012, we
-                            have been dedicated to curating a collection of stunning designs.</p>
-                    </div>
-                    <a href="about-us.html" class="btn btn-primary rounded-2 w-50"
-                        style="margin-top:20px;">Learn More</a>
-                </div><!-- closes .info-->
-            </section><!-- closes .banner -->
-
-            <!-- Gallery Section -->
-            <section id="gallery" class="container-lg" style="margin-top:40px; text-align: center; color: #693C16;">
+            <!-- Contact Us Section -->
+            <section id="contact-us" class="container-lg" style="margin-top: 40px; text-align: center; color: #693C16;">
                 <div class="row g-3">
-                    <h2 class="col-12">Gallery</h2>
-                    <div class="col-md-6">
-                        <!-- Photography -->
-                        <div class="card rounded-0 p-0 border-0">
-                            <a href="https://www.facebook.com/pixagram" target="_blank" aria-label="Photography Link">
-                                <picture>
-                                    <source srcset="images/photography/photography-400_x_300.jpg" media="(max-width:800px)">
-                                    <source srcset="images/photography/photography-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/photography/photography.jpg" alt="portrait of a woman with sunglass and hat"
-                                        class="photo-img" style="width:100%; height: 337px; object-fit: cover;">
-                                </picture>
-                            </a>
-                            <div class="card-body">
-                                <a href="https://www.facebook.com/pixagram" class="btn btn-primary rounded-2 d-block border-0"
-                                    target="_blank">Photography</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
-                    </div>
-                    <div class="col-md-6">
-                        <!-- Graphic Design -->
-                        <div class="card rounded-0 p-0 border-0">
-                            <a href="https://raypaulobgarcia.wixsite.com/samplesofwork" target="_blank"
-                                aria-label="Graphic Design Link">
-                                <picture>
-                                    <source srcset="images/graphic/graphic-400_x_300.jpg" media="(max-width:800px)">
-                                    <source srcset="images/graphic/graphic-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/graphic/graphic.jpg" alt="an photoshop manipulated elephant and butterfly"
-                                        class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
-                                </picture>
-                            </a>
-                            <div class="card-body">
-                                <a href="https://raypaulobgarcia.wixsite.com/samplesofwork"
-                                    class="btn btn-primary rounded-2 d-block border-0" target="_blank">Graphic Design</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
-                    </div>
-                    <div class="col-md-6">
-                        <!-- Videography -->
-                        <div class="card rounded-0 p-0 border-0">
-                            <a href="https://www.facebook.com" target="_blank" aria-label="Videography Link">
-                                <picture>
-                                    <source srcset="images/video/video-400_x_300.jpg" media="(max-width:800px)">
-                                    <source srcset="images/video/video-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/video/video.jpg" alt="image of a video studio"
-                                        class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
-                                </picture>
-                            </a>
-                            <div class="card-body">
-                                <a href="https://www.facebook.com"
-                                    class="btn btn-primary rounded-2 d-block border-0" target="_blank">Videography</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
-                    </div>
-                    <div class="col-md-6">
-                        <!-- Web Design-->
-                        <div class="card rounded-0 p-0 border-0">
-                            <a href="https://raypaulobgarcia.wixsite.com/samplesofwork" target="_blank"
-                                aria-label="Web Design Link">
-                                <picture>
-                                    <source srcset="images/web/web-400_x_300.jpg" media="(max-width:800px)">
-                                    <source srcset="images/web/web-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/web/web.jpg" alt="a photoshop manipulated elephant and butterfly"
-                                        class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
-                                </picture>
-                            </a>
-                            <div class="card-body">
-                                <a href="https://raypaulobgarcia.wixsite.com/samplesofwork"
-                                    class="btn btn-primary rounded-2 d-block border-0" target="_blank">Web Design</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
-                    </div>
+                    <h2>Contact Us</h2>
                 </div>
-            </section>
-        </main>
 
-        <!-- Footer -->
-        <footer class="bg-light text-center py-4">
-            <div class="container">
-                <div class="mt-2">
-                    <a href="https://www.facebook.com/pixagram" class="text-decoration-none mx-2 text-dark"
-                        style="font-size: 1.5em; color: #693C16;" aria-label="Facebook Link">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="https://www.instagram.com" class="text-decoration-none mx-2 text-dark"
-                        style="font-size: 1.5em; color: #693C16;" aria-label="Instagram Link">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/ray-paulo-garcia-3a60709b/"
-                        class="text-decoration-none mx-2 text-dark" style="font-size: 1.5em; color: #693C16;"
-                        aria-label="LinkedIn Link">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
+                <div class="bg-color-section" style="background-color: #693C16; text-align: center; color: white; padding: 1rem;">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center h-100">
+                            <div class="col-md-4">
+                                <i class="bi bi-phone" style="font-size: 2.4em;"></i>
+                                <p style="font-size: 0.8em;">Phone: +1 123 456 7890</p>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="bi bi-envelope" style="font-size: 2.4em;"></i>
+                                <p style="font-size: 0.8em;">Email: info@pixagram.com</p>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="bi bi-geo-alt" style="font-size: 2.4em;"></i>
+                                <p style="font-size: 0.8em;">Location: Pixagram Studio, City, Country</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p class="mb-0 text-muted mt-3" aria-label="Copyright Information">© 2023 Pixagram Design Studio. All
-                    rights reserved.</p>
+
+                <!-- FORM div -->
+                <div class="col-md-6 mx-auto mt-4" itemscope itemtype="https://schema.org/ContactPage">
+                    <h3>Send us a message</h3>
+                    <form action="#" aria-label="Contact Form" itemprop="potentialAction" itemscope itemtype="https://schema.org/CommunicateAction">
+                        <div class="mb-1">
+                            <label for="nameinput" class="form-label" style="font-size: 1em;">Name:</label>
+                            <input type="text" class="form-control rounded-0" style="font-size: 0.8em;" id="nameinput" name="nameinput" placeholder="Name" aria-required="true" itemprop="name">
+                        </div>
+                        <div class="mb-1">
+                            <label for="emailinput" class="form-label" style="font-size: 1em;">Email:</label>
+                            <input type="email" class="form-control rounded-0" style="font-size: 0.8em;" id="emailinput" name="emailinput" placeholder="Email" aria-required="true" itemprop="email">
+                        </div>
+                        <div class="mb-1">
+                            <label for="phoneinput" class="form-label" style="font-size: 1em;">Phone:</label>
+                            <input type="tel" class="form-control rounded-0" style="font-size: 0.8em;" id="phoneinput" name="phoneinput" placeholder="Phone" itemprop="telephone">
+                        </div>
+                        <div class="mb-1">
+                            <label for="message" class="form-label" style="font-size: 1em;">Message:</label>
+                            <textarea class="form-control rounded-0" style="font-size: 0.8em;" id="message" rows="10" name="message" placeholder="Message" aria-required="true" itemprop="description"></textarea>
+                        </div>
+                        <button class="btn btn-primary rounded-2 d-block border-0 w-100" target="_blank" itemprop="submit">Send</button>
+                    </form>
+                </div>
+
+                <!-- TABLE - Hours of Operation -->
+                <div class="col-md-6 mx-auto mt-4">
+                    <h3 id="hours">Hours of Operation</h3>
+                    <table class="table table-bordered border-dark w-100" aria-label="Hours of Operation" itemprop="openingHoursSpecification" itemscope itemtype="https://schema.org/OpeningHoursSpecification">
+                        <thead>
+                            <tr>
+                                <th class="bg-secondary">Days</th>
+                                <th class="bg-secondary">Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td itemprop="dayOfWeek">Monday-Friday</td>
+                                <td itemprop="opens">9:00</td>
+                                <td itemprop="closes">18:00</td>
+                            </tr>
+                            <tr>
+                                <td itemprop="dayOfWeek">Saturday-Sunday</td>
+                                <td colspan="2" itemprop="closes">Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- LOCATION DIV -->
+                <div class="col-md-6 mx-auto mt-4" itemprop="hasMap" itemscope itemtype="https://schema.org/Place">
+                    <h3 id="location">Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.8730811379428!2d-75.75672652048108!3d45.34985609823244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1699477572858!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100" style="height: 400px;" aria-label="Google Map Location"></iframe>
+                    <meta itemprop="name" content="Pixagram Studio">
+                    <meta itemprop="address" content="City, Country">
+                </div>
             </div>
-        </footer>
+        </section>
+    </main>
 
-        <!-- SCROLL TO TOP BUTTON -->
-        <div id="scroll-to-top" class="position-fixed bottom-0 end-0 p-3" style="display: none; cursor: pointer;">
-            <button class="btn btn-primary rounded-circle">
-                <i class="bi bi-arrow-up"></i>
-            </button>
-    
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <div class="container">
+            <div class="mt-2">
+                <a href="https://www.facebook.com/pixagram" class="text-decoration-none mx-2 text-dark" style="font-size: 1.5em; color: #693C16;" aria-label="Facebook Link">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com" class="text-decoration-none mx-2 text-dark" style="font-size: 1.5em; color: #693C16;" aria-label="Instagram Link">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ray-paulo-garcia-3a60709b/" class="text-decoration-none mx-2 text-dark" style="font-size: 1.5em; color: #693C16;" aria-label="LinkedIn Link">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+            <p class="mb-0 text-muted mt-3" aria-label="Copyright Information">© 2023 Pixagram Design Studio. All rights reserved.</p>
         </div>
-        </div>
-    
-        <!-- ADDITIONAL CODES -->
-        <!-- Bootstrap JS (and Popper.js) -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></script>
-        <!-- Font Awesome Icons (Free version) -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
-            integrity="sha384-eQJ8Te4U1sA8fP7pAQcKT8Gk5B3TOjPr+Nt9fFqE+FuEAqF5q7ByjXNo1PwFkCj" crossorigin="anonymous"></script>
-        
-        <script>
-            // Scroll to Top Functionality
-             document.getElementById('scroll-to-top').addEventListener('click', function () {
-                 window.scrollTo({
-                      top: 0,
-                     behavior: 'smooth'
-                  });
-              });
-        
-             // Show/Hide Scroll to Top Icon based on scroll position
-              window.addEventListener('scroll', function () {
-                var scrollPosition = window.scrollY || document.documentElement.scrollTop;
-        
-                if (scrollPosition > 300) {
-                    document.getElementById('scroll-to-top').style.display = 'block';
-                 } else {
-                 document.getElementById('scroll-to-top').style.display = 'none';
-                 }
-                });
-            </script>
-    
-    </body>
-    
-    </html>
+    </footer>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <div id="scroll-to-top" class="position-fixed bottom-0 end-0 p-3" style="display: none; cursor: pointer;">
+        <button class="btn btn-primary rounded-circle">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </div>
+    </div>
+
+    <!-- ADDITIONAL CODES -->
+    <!-- Bootstrap JS (and Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></script>
+    <!-- Font Awesome Icons (Free version) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-eQJ8Te4U1sA8fP7pAQcKT8Gk5B3TOjPr+Nt9fFqE+FuEAqF5q7ByjXNo1PwFkCj" crossorigin="anonymous"></script>
+
+    <script>
+        // Scroll to Top Functionality
+        document.getElementById('scroll-to-top').addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Show/Hide Scroll to Top Icon based on scroll position
+        window.addEventListener('scroll', function () {
+            var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+            if (scrollPosition > 300) {
+                document.getElementById('scroll-to-top').style.display = 'block';
+            } else {
+                document.getElementById('scroll-to-top').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
