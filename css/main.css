@@ -1,5 +1,4 @@
-*{
-    box-sizing: border-box;
+* {box-sizing: border-box;
 }
 
 html{
@@ -112,4 +111,10 @@ body { margin: 0 auto;
 
     .banner-image {
         animation: panLeftToRight 30s linear infinite;
+    }
+
+    th.bg-secondary,
+    td[data-time] {
+        background-color: #AF8E72 !important;
+        color: white;
     }

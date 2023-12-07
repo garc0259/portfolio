@@ -92,43 +92,44 @@
                     <h3>Send us a message</h3>
                     <form action="#" aria-label="Contact Form" itemprop="potentialAction" itemscope itemtype="https://schema.org/CommunicateAction">
                         <div class="mb-1">
-                            <label for="nameinput" class="form-label" style="font-size: 1em;">Name:</label>
-                            <input type="text" class="form-control rounded-0" style="font-size: 0.8em;" id="nameinput" name="nameinput" placeholder="Name" aria-required="true" itemprop="name">
+                            <label for="nameinput" class="form-label" style="font-size: 1em;"></label>
+                            <input type="text" class="form-control rounded-0" style="font-size: 0.8em;" id="nameinput" name="nameinput" placeholder="Name">
                         </div>
                         <div class="mb-1">
-                            <label for="emailinput" class="form-label" style="font-size: 1em;">Email:</label>
-                            <input type="email" class="form-control rounded-0" style="font-size: 0.8em;" id="emailinput" name="emailinput" placeholder="Email" aria-required="true" itemprop="email">
+                            <label for="emailinput" class="form-label" style="font-size: 1em;"></label>
+                            <input type="email" class="form-control rounded-0" style="font-size: 0.8em;" id="emailinput" name="emailinput" placeholder="Email">
                         </div>
                         <div class="mb-1">
-                            <label for="phoneinput" class="form-label" style="font-size: 1em;">Phone:</label>
-                            <input type="tel" class="form-control rounded-0" style="font-size: 0.8em;" id="phoneinput" name="phoneinput" placeholder="Phone" itemprop="telephone">
+                            <label for="phoneinput" class="form-label" style="font-size: 1em;"></label>
+                            <input type="tel" class="form-control rounded-0" style="font-size: 0.8em;" id="phoneinput" name="phoneinput" placeholder="Phone">
                         </div>
                         <div class="mb-1">
-                            <label for="message" class="form-label" style="font-size: 1em;">Message:</label>
-                            <textarea class="form-control rounded-0" style="font-size: 0.8em;" id="message" rows="10" name="message" placeholder="Message" aria-required="true" itemprop="description"></textarea>
+                            <label for="message" class="form-label" style="font-size: 1em;"></label>
+                            <textarea class="form-control rounded-0" style="font-size: 0.8em;" id="message" rows="10" name="message" placeholder="Message"></textarea>
                         </div>
-                        <button class="btn btn-primary rounded-2 d-block border-0 w-100" target="_blank" itemprop="submit">Send</button>
+                        <button class="btn btn-primary rounded-2 d-block border-0 w-100">Send</button>
                     </form>
                 </div>
 
                 <!-- TABLE - Hours of Operation -->
                 <div class="col-md-6 mx-auto mt-4">
                     <h3 id="hours">Hours of Operation</h3>
-                    <table class="table table-bordered border-dark w-100" aria-label="Hours of Operation" itemprop="openingHoursSpecification" itemscope itemtype="https://schema.org/OpeningHoursSpecification">
+                    <table class="table table-bordered border-dark w-100" itemscope itemtype="https://schema.org/OpeningHoursSpecification">
                         <thead>
                             <tr>
                                 <th class="bg-secondary">Days</th>
-                                <th class="bg-secondary">Hours</th>
+                                <th class="bg-secondary">Opens</th>
+                                <th class="bg-secondary">Closes</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td itemprop="dayOfWeek">Monday-Friday</td>
-                                <td itemprop="opens">9:00</td>
-                                <td itemprop="closes">18:00</td>
+                                <td itemprop="businessDays">Monday-Friday</td>
+                                <td itemprop="opens">9:00am </td>
+                                <td itemprop="closes">17:00pm</td>
                             </tr>
                             <tr>
-                                <td itemprop="dayOfWeek">Saturday-Sunday</td>
+                                <td itemprop="businessDays">Saturday-Sunday</td>
                                 <td colspan="2" itemprop="closes">Closed</td>
                             </tr>
                         </tbody>
@@ -136,13 +137,10 @@
                 </div>
 
                 <!-- LOCATION DIV -->
-                <div class="col-md-6 mx-auto mt-4" itemprop="hasMap" itemscope itemtype="https://schema.org/Place">
+                <div class="col-md-6 mx-auto mt-4">
                     <h3 id="location">Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.8730811379428!2d-75.75672652048108!3d45.34985609823244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1699477572858!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100" style="height: 400px;" aria-label="Google Map Location"></iframe>
-                    <meta itemprop="name" content="Pixagram Studio">
-                    <meta itemprop="address" content="City, Country">
                 </div>
-            </div>
         </section>
     </main>
 
@@ -160,7 +158,7 @@
                     <i class="bi bi-linkedin"></i>
                 </a>
             </div>
-            <p class="mb-0 text-muted mt-3" aria-label="Copyright Information">© 2023 Pixagram Design Studio. All rights reserved.</p>
+            <p class="mb-0 text-muted mt-3">© 2023 Pixagram Design Studio. All rights reserved.</p>
         </div>
     </footer>
 
@@ -176,7 +174,7 @@
     <!-- Bootstrap JS (and Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></script>
     <!-- Font Awesome Icons (Free version) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-eQJ8Te4U1sA8fP7pAQcKT8Gk5B3TOjPr+Nt9fFqE+FuEAqF5q7ByjXNo1PwFkCj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
 
     <script>
         // Scroll to Top Functionality

@@ -11,16 +11,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Animate.css Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- Animate On Scroll -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <!-- SKIP LINKS -->
     <ul id="skip-links">
-        <li><a href="#photography" aria-label="go to photography">Go to Photography and Graphic Design</a></li>
-        <li><a href="#videography" aria-label="go to videography">Go to Videography and Web Design</a></li>
+        <li><a href="#photography" aria-label="Go to Photography and Graphic Design">Go to Photography and Graphic Design</a></li>
+        <li><a href="#videography" aria-label="Go to Videography and Web Design">Go to Videography and Web Design</a></li>
     </ul>
 
     <!-- HEADER -->
@@ -29,14 +27,14 @@
             <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
                 <div class="container-lg">
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo/logo.png" alt="pixagram design studio logo">
+                        <img src="images/logo/logo.png" alt="Pixagram Design Studio Logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation" aria-label="Main Navigation">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto nav-custom">
                             <li class="nav-item px-4">
                                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -51,7 +49,7 @@
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
+                        <form class="d-flex" role="search" aria-label="Site Search">
                             <input class="form-control text-bg-light rounded-0" type="search" placeholder="Search"
                                 aria-label="Search">
                             <button class="btn btn-outline-primary rounded-0" type="submit"
@@ -73,76 +71,76 @@
             <!-- Gallery Section -->
             <section id="gallery" class="container-lg" style="margin-top:40px; text-align: center; color: #693C16;">
                 <div class="row g-3">
-                    <h2 class="col-12">Gallery</h2>
+                    <h2 class="col-12" id="gallery-heading">Gallery</h2>
                     <div class="col-md-6">
                         <!-- Photography -->
-                        <div class="card rounded-0 p-0 border-0">
+                        <div class="card rounded-0 p-0 border-0" role="article">
                             <a href="https://www.facebook.com/pixagram" target="_blank" aria-label="Photography Link">
                                 <picture>
                                     <source srcset="images/photography/photography-400_x_300.jpg" media="(max-width:800px)">
                                     <source srcset="images/photography/photography-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/photography/photography.jpg" alt="portrait of a woman with sunglass and hat"
+                                    <img src="images/photography/photography.jpg" alt="Portrait of a woman with sunglasses and hat"
                                         class="photo-img" style="width:100%; height: 337px; object-fit: cover;">
                                 </picture>
                             </a>
-                            <div class="card-body" id="photography" >
+                            <div class="card-body" id="photography">
                                 <a href="https://www.facebook.com/pixagram" class="btn btn-primary rounded-2 d-block border-0"
                                     target="_blank">Photography</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <!-- Graphic Design -->
-                        <div class="card rounded-0 p-0 border-0">
+                        <div class="card rounded-0 p-0 border-0" role="article">
                             <a href="https://raypaulobgarcia.wixsite.com/samplesofwork" target="_blank"
                                 aria-label="Graphic Design Link">
                                 <picture>
                                     <source srcset="images/graphic/graphic-400_x_300.jpg" media="(max-width:800px)">
                                     <source srcset="images/graphic/graphic-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/graphic/graphic.jpg" alt="an photoshop manipulated elephant and butterfly"
+                                    <img src="images/graphic/graphic.jpg" alt="An Photoshop manipulated elephant and butterfly"
                                         class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
                                 </picture>
                             </a>
                             <div class="card-body">
                                 <a href="https://raypaulobgarcia.wixsite.com/samplesofwork"
                                     class="btn btn-primary rounded-2 d-block border-0" target="_blank">Graphic Design</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <!-- Videography -->
-                        <div class="card rounded-0 p-0 border-0">
+                        <div class="card rounded-0 p-0 border-0" role="article">
                             <a href="https://www.facebook.com" target="_blank" aria-label="Videography Link">
                                 <picture>
                                     <source srcset="images/video/video-400_x_300.jpg" media="(max-width:800px)">
                                     <source srcset="images/video/video-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/video/video.jpg" alt="image of a video studio"
+                                    <img src="images/video/video.jpg" alt="Image of a video studio"
                                         class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
                                 </picture>
                             </a>
-                            <div class="card-body" id="videography" >
+                            <div class="card-body" id="videography">
                                 <a href="https://www.facebook.com"
                                     class="btn btn-primary rounded-2 d-block border-0" target="_blank">Videography</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <!-- Web Design-->
-                        <div class="card rounded-0 p-0 border-0">
+                        <div class="card rounded-0 p-0 border-0" role="article">
                             <a href="https://raypaulobgarcia.wixsite.com/samplesofwork" target="_blank"
                                 aria-label="Web Design Link">
                                 <picture>
                                     <source srcset="images/web/web-400_x_300.jpg" media="(max-width:800px)">
                                     <source srcset="images/web/web-500_x_375.jpg" media="(min-width:800px)">
-                                    <img src="images/web/web.jpg" alt="a photoshop manipulated elephant and butterfly"
+                                    <img src="images/web/web.jpg" alt="A Photoshop manipulated elephant and butterfly"
                                         class="graphic-img" style="width:100%; height: 337px; object-fit: cover;">
                                 </picture>
                             </a>
                             <div class="card-body">
                                 <a href="https://raypaulobgarcia.wixsite.com/samplesofwork"
                                     class="btn btn-primary rounded-2 d-block border-0" target="_blank">Web Design</a>
-                            </div><!-- closes .card-body -->
-                        </div><!-- closes .card -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -166,7 +164,7 @@
                         <i class="bi bi-linkedin"></i>
                     </a>
                 </div>
-                <p class="mb-0 text-muted mt-3" aria-label="Copyright Information">© 2023 Pixagram Design Studio. All
+                <p class="mb-0 text-muted mt-3">© 2023 Pixagram Design Studio. All
                     rights reserved.</p>
             </div>
         </footer>
@@ -175,7 +173,6 @@
         <button class="btn btn-primary rounded-circle">
             <i class="bi bi-arrow-up"></i>
         </button>
-
     </div>
     </div>
 
@@ -185,7 +182,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></script>
     <!-- Font Awesome Icons (Free version) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
-        integrity="sha384-eQJ8Te4U1sA8fP7pAQcKT8Gk5B3TOjPr+Nt9fFqE+FuEAqF5q7ByjXNo1PwFkCj" crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     
     <script>
         // Scroll to Top Functionality

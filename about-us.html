@@ -11,20 +11,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Animate.css Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- Animate On Scroll -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <!-- SKIP LINKS -->
-    <!-- SKIP LINKS -->
     <ul id="skip-links">
-        <li><a href="#mission" aria-label="go to mission">Go to Mission</a></li>
-        <li><a href="#vision" aria-label="go to vision">Go to Vision</a></li>
-        <li><a href="#contact-us" aria-label="go to contact us">Go to Contact Us</a></li>
+        <li><a href="#mission" aria-label="Go to Mission">Go to Mission</a></li>
+        <li><a href="#vision" aria-label="Go to Vision">Go to Vision</a></li>
+        <li><a href="#contact-us" aria-label="Go to Contact Us">Go to Contact Us</a></li>
     </ul>
-
 
     <!-- HEADER -->
     <div class="wrapper">
@@ -32,14 +28,14 @@
             <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
                 <div class="container-lg">
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo/logo.png" alt="pixagram design studio logo">
+                        <img src="images/logo/logo.png" alt="Pixagram Design Studio Logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" role="navigation" aria-label="Main Navigation">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto nav-custom">
                             <li class="nav-item px-4">
                                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -54,7 +50,7 @@
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
+                        <form class="d-flex" role="search" aria-label="Site Search">
                             <input class="form-control text-bg-light rounded-0" type="search" placeholder="Search"
                                 aria-label="Search">
                             <button class="btn btn-outline-primary rounded-0" type="submit"
@@ -76,32 +72,32 @@
             <section id="gallery" class="container-lg" style="margin-top:40px; text-align: center; color: #693C16;">
                 <div class="row g-3">
                     <h2 class="col-12">About Us</h2>
-                <div class="home-banner" style="position: relative;">
-                    <picture>
-                        <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
-                        <source srcset="images/banner/banner-800_x_533.jpg" media="(min-width:800px)">
-                        <img src="images/banner/banner.jpg" alt="picture of a computer screen with web design"
-                            class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
-                    </picture>
-                    <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 337px; background-color: rgba(0, 0, 0, 0.6);"></div>
-                    <div class="banner-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                        <h1 class="display-5" style="color: white;">Pixagram Design Studio</h1>
-                        <p style="color: white;">A haven for creative souls alike. Since our establishment in 2012, we
-                            have been dedicated to curating a collection of stunning designs.</p>
+                    <div class="home-banner" style="position: relative;">
+                        <picture>
+                            <source srcset="images/banner/banner-600_x_400.jpg" media="(max-width:800px)">
+                            <source srcset="images/banner/banner-800_x_533.jpg" media="(min-width:800px)">
+                            <img src="images/banner/banner.jpg" alt="Picture of a computer screen with web design"
+                                class="banner-image" style="width:100%; height: 337px; object-fit: cover;">
+                        </picture>
+                        <div class="dark-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 337px; background-color: rgba(0, 0, 0, 0.6);"></div>
+                        <div class="banner-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                            <h1 class="display-5" style="color: white;">Pixagram Design Studio</h1>
+                            <p style="color: white;">A haven for creative souls alike. Since our establishment in 2012, we
+                                have been dedicated to curating a collection of stunning designs.</p>
+                        </div>
                     </div>
+                </div>
+            </section>
 
-                </div><!-- closes .info-->
-            </section><!-- closes .banner -->
+            <div style="text-align: center;">
+                <h2 id="mission" style="margin-top:20px; color: #693C16;">Mission</h2>
+                <p style="margin: 20px 10%; text-align: justify; color: #693C16;">Welcome to Pixagram Design Studio, a haven for photography enthusiasts and creative souls alike. Since our establishment in 2012, we have been dedicated to curating a collection of high-quality photography equipment and accessories that elevate the art of capturing moments. Our mission is to empower photographers with the tools they need to unleash their creativity and capture stunning images that tell captivating stories.</p>
 
-    <div style="text-align: center;">
-        <h2 id="mission" style="margin-top:20px; color: #693C16;">Mission</h2>
-        <p style="margin: 20px 10%; text-align: justify; color: #693C16;">Welcome to Pixagram Design Studio, a haven for photography enthusiasts and creative souls alike. Since our establishment in 2012, we have been dedicated to curating a collection of high-quality photography equipment and accessories that elevate the art of capturing moments. Our mission is to empower photographers with the tools they need to unleash their creativity and capture stunning images that tell captivating stories.</p>
+                <h2 id="vision" style="color: #693C16;">Vision</h2>
+                <p style="margin: 20px 10%; text-align: justify; color: #693C16;">At Pixagram Design Studio, we envision a world where photography is not just a hobby or a profession but a form of artistic expression that transcends boundaries. We strive to be the go-to destination for photographers, providing top-notch equipment, expert advice, and a community where creativity flourishes. Our vision is to inspire and support photographers in capturing the world through their unique lens, creating timeless visual stories.</p>
 
-        <h2 id="vision" style="color: #693C16;">Vision</h2>
-        <p style="margin: 20px 10%; text-align: justify; color: #693C16;">At Pixagram Design Studio, we envision a world where photography is not just a hobby or a profession but a form of artistic expression that transcends boundaries. We strive to be the go-to destination for photographers, providing top-notch equipment, expert advice, and a community where creativity flourishes. Our vision is to inspire and support photographers in capturing the world through their unique lens, creating timeless visual stories.</p>
-
-        <a id="contact-us" href="contact.html" class="btn btn-primary rounded-2 w-50" style="margin-top:40px; display: block; margin-left: auto; margin-right: auto;">Contact Us</a>
-    </div>
+                <a id="contact-us" href="contact.html" class="btn btn-primary rounded-2 w-50" style="margin-top:40px; margin-bottom: 50px; display: block; margin-left: auto; margin-right: auto;">Contact Us</a>
+            </div>
 
         </main>
 
@@ -123,17 +119,16 @@
                         <i class="bi bi-linkedin"></i>
                     </a>
                 </div>
-                <p class="mb-0 text-muted mt-3" aria-label="Copyright Information">© 2023 Pixagram Design Studio. All
+                <p class="mb-0 text-muted mt-3">© 2023 Pixagram Design Studio. All
                     rights reserved.</p>
             </div>
         </footer>
 
        <!-- SCROLL TO TOP BUTTON -->
        <div id="scroll-to-top" class="position-fixed bottom-0 end-0 p-3" style="display: none; cursor: pointer;">
-        <button class="btn btn-primary rounded-circle">
+        <button class="btn btn-primary rounded-circle" aria-label="Scroll to Top">
             <i class="bi bi-arrow-up"></i>
         </button>
-
     </div>
     </div>
 
@@ -143,7 +138,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></script>
     <!-- Font Awesome Icons (Free version) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
-        integrity="sha384-eQJ8Te4U1sA8fP7pAQcKT8Gk5B3TOjPr+Nt9fFqE+FuEAqF5q7ByjXNo1PwFkCj" crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     
     <script>
         // Scroll to Top Functionality
@@ -164,7 +159,7 @@
              document.getElementById('scroll-to-top').style.display = 'none';
              }
             });
-        </script>
+    </script>
 
 </body>
 
